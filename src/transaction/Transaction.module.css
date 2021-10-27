@@ -1,0 +1,21 @@
+.transactionHistory {
+  width: 50%;
+  margin: auto;
+}
+
+.tableList:nth-child(even) {
+  background-color: rgb(220, 220, 252);
+}
+
+.tableList {
+  height: 50px;
+}
+
+.titleList {
+  background-color: rgb(168, 234, 250);
+  height: 50px;
+}
+
+.tableItem {
+  text-align: center;
+}

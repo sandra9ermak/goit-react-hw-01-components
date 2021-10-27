@@ -1,0 +1,16 @@
+.listItem {
+  list-style-type: none;
+}
+
+.listItem:not(:last-child) {
+  margin-right: 10px;
+}
+
+.statistics {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.staffList {
+  display: flex;
+}

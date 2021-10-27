@@ -1,13 +1,20 @@
-const Statistic = ({title, stats}) => {
-    return (
-        <section class="statistics">
-            {title && <h2 class="title">{title}</h2>}
+import styles from "./Statistic.module.css";
 
-            <ul class="stat-list">
+
+const getRandomHexColor = () => {
+  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+}
+
+const Statistic = ({ title, stats }) => {
+    return (
+        <section class={styles.statistics}>
+            {title && <h2 className={styles.title}>{title}</h2>}
+
+            <ul class={styles.staffList}>
             {stats.map(item => 
-                <li class="item">
-                    <span class="label">{item.label}</span>
-                    <span class="percentage">{item.percentage}%</span>
+                <li className={styles.listItem} styles={{backgroundColor: getRandomHexColor}}>
+                    <span className="label">{item.label}</span>
+                    <span className="percentage">{item.percentage}%</span>
                 </li>
             )}
             </ul>
