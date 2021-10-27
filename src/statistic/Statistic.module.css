@@ -1,5 +1,14 @@
 .listItem {
   list-style-type: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 2px;
+}
+
+.label,
+.percentage {
+  text-align: center;
+  display: block;
 }
 
 .listItem:not(:last-child) {
@@ -7,10 +16,15 @@
 }
 
 .statistics {
-  border: 1px solid black;
+  border: 1px solid #eee;
   text-align: center;
+  width: 1000px;
+  margin: auto;
+  box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5), 2px 2px 5px rgb(73, 63, 63);
+  font-weight: 500;
 }
 
 .staffList {
   display: flex;
+  justify-content: center;
 }

@@ -1,11 +1,6 @@
 import styles from "./Profile.module.css";
 
-const Profile = ({ name, tag, location, avatar, stats }) => {
-  const renderStats = Object.entries(stats).map(([key, value]) =>
-        <li key = {key} className={styles.list}>
-            <span className={styles.label}>{key}</span>
-            <span className={styles.quantity}>{value}</span>
-        </li>);
+const Profile = ({ name, tag, location, avatar, stats }) => {  
     return (
         <div className={styles.profile}>
   <div className={styles.description}>
@@ -20,7 +15,11 @@ const Profile = ({ name, tag, location, avatar, stats }) => {
   </div>
 
     <ul className={styles.stats}>
-      {renderStats}
+      {Object.entries(stats).map(([key, value]) =>
+        <li key = {key} className={styles.list}>
+            <span className={styles.label}>{key}</span>
+            <span className={styles.quantity}>{value}</span>
+        </li>)}
     </ul>
 </div>
     )

@@ -13,7 +13,7 @@ const Transaction = ({ items }) => {
 
   <tbody>
         {items.map(item =>
-    <tr className={styles.tableList}>
+          <tr key={ item.id} className={styles.tableList}>
       <td className={styles.tableItem}>{item.type}</td>
       <td className={styles.tableItem}>{item.amount}</td>
       <td className={styles.tableItem}>{item.currency}</td>
