@@ -11,13 +11,13 @@ const Profile = ({ name, tag, location, avatar, stats }) => {
       className={styles.avatar}
     />
     <p className={styles.name}>{name}</p>
-    <p className="tag">@{tag}</p>
+    <p className={styles.tag}>@{tag}</p>
     <p className="location">{location}</p>
   </div>
 
     <ul className={styles.stats}>
       {Object.entries(stats).map(([key, value]) =>
-        <li key = {key} className={styles.list}>
+        <li key={key} className={styles.list}>
             <span className={styles.label}>{key}</span>
             <span className={styles.quantity}>{value}</span>
         </li>)}

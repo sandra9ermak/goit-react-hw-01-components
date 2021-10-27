@@ -1,17 +1,19 @@
 .profile {
   border: 2px solid black;
-  width: 500px;
+  width: 300px;
   margin: 0 auto;
   background-color: rgb(231, 237, 250);
   font-weight: 500;
   text-align: center;
   padding-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .list {
   list-style-type: none;
   margin: 0 auto;
+  padding-top: 10px;
 }
 
 .label {
@@ -21,9 +23,20 @@
 .avatar {
   width: 150px;
   height: 150px;
+  margin-bottom: 10px;
 }
 
 .stats {
   border-top: 2px solid black;
   display: flex;
+  text-transform: uppercase;
+}
+
+.name,
+.tag {
+  margin-bottom: 10px;
+}
+
+.description {
+  padding-bottom: 35px;
 }

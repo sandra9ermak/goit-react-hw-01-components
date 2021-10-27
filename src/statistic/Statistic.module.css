@@ -1,8 +1,8 @@
 .listItem {
-  list-style-type: none;
   width: 150px;
   height: 50px;
   border-radius: 2px;
+  padding-top: 10px;
 }
 
 .label,
@@ -23,9 +23,17 @@
   box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5), 2px 2px 5px rgb(73, 63, 63);
   font-weight: 500;
   background-color: #fff;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .staffList {
   display: flex;
   justify-content: center;
+}
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 15px;
 }

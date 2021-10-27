@@ -2,7 +2,7 @@ import s from "./FriendsList.module.css";
 
 const FriendsList = ({ friends }) => {
     return(
-    <ul>
+    <ul className={s.list}>
         {friends.map(item =>
             <li key={ item.id} className={s.listItem}>
                 <span className={item.isOnline ? s.isOnline : s.isOffline}>{item.isOnline}</span>

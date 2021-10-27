@@ -8,15 +8,19 @@
 }
 
 .tableList {
-  height: 50px;
+  height: 70px;
   background-color: #fff;
 }
 
-.titleList {
+.titleItem {
   background-color: rgb(168, 234, 250);
   height: 50px;
 }
 
 .tableItem {
   text-align: center;
+}
+
+.titleList {
+  text-transform: uppercase;
 }
