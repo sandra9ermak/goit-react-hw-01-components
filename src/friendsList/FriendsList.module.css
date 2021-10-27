@@ -1,34 +1,38 @@
 .isOnline {
-  color: rgb(25, 165, 71);
-  border: 1px solid #eee;
-  width: 400px;
-  padding-top: 10px;
-  padding-left: 10px;
-  border-radius: 4px;
-  box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5),
-    1px 1px 5px rgba(255, 255, 255, 1);
-  font-style: 200px;
-  list-style-position: inside;
-  font-size: 64px;
-  line-height: 30px;
+  background-color: rgb(25, 165, 71);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-.notOnline {
-  color: rgb(201, 33, 33);
+.isOffline {
+  background-color: rgb(201, 33, 33);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.listItem {
   border: 1px solid #eee;
-  width: 400px;
-  padding-top: 10px;
-  padding-left: 10px;
   border-radius: 4px;
   box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5),
     2px 2px 5px rgba(255, 255, 255, 1);
-  list-style-position: inside;
+  list-style: none;
   font-size: 64px;
-  line-height: 30px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  width: 250px;
+  background-color: #fff;
 }
 
 .name {
   font-weight: 500;
   color: black;
   font-size: 25px;
+  margin-left: 15px;
 }
