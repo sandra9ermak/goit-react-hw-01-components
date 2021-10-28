@@ -19,7 +19,7 @@ const App = () => {
         stats={user.stats}
       />
       <Statistic title="Upload stats" stats={statisticalData} />
-      {/* <Statistic stats={statisticalData} />; */}
+      <Statistic stats={statisticalData} />;
       <FriendsList friends={friends} />
       <Transaction items={transactions} />
     </>
