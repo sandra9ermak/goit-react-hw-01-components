@@ -1,3 +1,8 @@
+.list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .isOnline {
   background-color: rgb(25, 165, 71);
   border-radius: 50%;
