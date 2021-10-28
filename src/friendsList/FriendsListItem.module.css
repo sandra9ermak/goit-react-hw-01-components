@@ -1,0 +1,44 @@
+.isOnline {
+  background-color: rgb(25, 165, 71);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.isOffline {
+  background-color: rgb(201, 33, 33);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.listItem {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5),
+    2px 2px 5px rgba(255, 255, 255, 1);
+  list-style: none;
+  font-size: 64px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  width: 250px;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.listItem:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.name {
+  font-weight: 500;
+  color: black;
+  font-size: 25px;
+  margin-left: 15px;
+}
